@@ -17,5 +17,6 @@ public class Programacao01 {
     private char genero;
     private String matricula;
     private String email;
+    int k = 0;
 }
 
