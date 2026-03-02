@@ -7,7 +7,7 @@ import java.util.Date;
 
 /**
  *
- * @author aluno
+ * @author Gregori
  */
 public class Programacao01 {
 
@@ -17,5 +17,7 @@ public class Programacao01 {
     private char genero;
     private String matricula;
     private String email;
+    
+   
 }
 
