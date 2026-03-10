@@ -1,0 +1,78 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ */
+package com.mycompany.gregori_franca;
+
+import java.util.Date;
+
+/**
+ *
+ * @author aluno
+ */
+public class Estudante {
+
+    private static String nome;
+    private Date dataNascimento;
+    private String cpf;
+    private char genero;
+    private String matricula;
+    private String email;
+
+    public Estudante() {
+        setNome("Grégori");
+        nome = "Nobody";
+    }
+
+    private int obterIdade(Date hoje) {
+        int idade = 0;
+        return idade;
+    }
+
+    public static String getNome() {
+        return nome;
+    }
+
+    public static void setNome(String _nome) {
+        nome = _nome;
+    }
+
+    public Date getIdade() {
+        return dataNascimento;
+    }
+
+    public void setIdade(Date _idade) {
+        dataNascimento = _idade;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(String _cpf) {
+        cpf = _cpf;
+    }
+
+    public char getgenero() {
+        return genero;
+    }
+
+    public void setGenero(char _genero) {
+        genero = _genero;
+    }
+
+    public String getmatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String _matricula) {
+        matricula = _matricula;
+    }
+
+    public String getemail() {
+        return email;
+    }
+
+    public void setemail(String _email) {
+        email = _email;
+    }
+}
