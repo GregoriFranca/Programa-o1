@@ -9,5 +9,17 @@ package com.mycompany.gregori_franca;
  * @author aluno
  */
 public class Professor {
+    //Professor
+    private String nome;
+    private int numeroIndentificacao;
+    private String enderecoEletronico;
+    private String telefone;
+    private String titulacaoAcademica;
+    private String areaAtuacao;
+    private String regimeTrabalho;
+    private String dataIngresso;
+    private String formacao;
+    
+    
     
 }
