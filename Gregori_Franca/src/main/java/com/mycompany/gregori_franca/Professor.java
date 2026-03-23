@@ -1,7 +1,7 @@
 package com.mycompany.gregori_franca;
 
 import java.util.Date;
-
+j
 public class Professor {
     private String nome;
     private String email;
